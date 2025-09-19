@@ -13,4 +13,4 @@ jobs:
         with:
           email: ${{ secrets.CC_EMAIL }}
           passwd: ${{ secrets.CC_PASSWD }}
-          host: www.cordcloud.biz,www.cordc.xyz,www.cordc.cc,www.cordcloud.cloud,www.cordc.net
+          host: cordcloud.biz,cordc.xyz,cordc.cc,cordcloud.cloud,cordc.net
