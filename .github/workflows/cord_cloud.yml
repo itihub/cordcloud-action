@@ -9,8 +9,8 @@ jobs:
   checkin:
     runs-on: ubuntu-latest
     steps:
-      - uses: yanglbme/cordcloud-action@main
+      - uses: itihub/cordcloud-action@main
         with:
           email: ${{ secrets.CC_EMAIL }}
           passwd: ${{ secrets.CC_PASSWD }}
-          host: cordcloud.biz,cordc.xyz,cordc.cc,cordcloud.cloud,cordc.net
+          host: www.cordcloud.biz,www.cordc.xyz,www.cordc.cc,www.cordcloud.cloud,www.cordc.net
